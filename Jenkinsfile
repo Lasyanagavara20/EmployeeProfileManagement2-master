@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/SrijaChevuturi/EmployeeProfileManagement2.git'
+                git branch: 'master', url: 'https://github.com/Lasyanagavara20/EmployeeProfileManagement2-master.git'
             }
         }
 
